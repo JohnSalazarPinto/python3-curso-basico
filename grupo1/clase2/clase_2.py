@@ -6,11 +6,13 @@ print(var_verdadero)
 valor_flotante = 3.4
 es_entero = valor_flotante.is_integer()
 print("El valor es entero?:", es_entero)
+
 """Variables tuplas"""
 mi_tupla_1 = ("Valor1", 10, "valor3")
 print(mi_tupla_1)
 print(mi_tupla_1[1])
 print(mi_tupla_1[0])
+
 """Objetos"""
 auto = {"marca": "Audi", "modelo": "2020"}
 print(auto.get("marca"))
